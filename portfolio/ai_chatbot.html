@@ -14,20 +14,36 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column; /* 세로 방향으로 정렬 */
       height: 100vh; /* 화면 높이를 100%로 설정 */
       margin: 0; /* 기본 여백 제거 */
       text-align: center; /* 텍스트 중앙 정렬 */
+    }
+
+    /* AI Chatbot 제목 스타일 */
+    h1 {
+      margin-left: 20px; /* 제목을 왼쪽으로 한 탭 정도 이동 */
+      text-align: left;  /* 제목을 왼쪽으로 정렬 */
+    }
+
+    /* Description 텍스트 스타일 */
+    p {
+      margin-top: 20px; /* Description과 제목 간격 설정 */
     }
 
     /* Mermaid 다이어그램 div 중앙 정렬 */
     .mermaid {
       width: 80%; /* 다이어그램의 너비를 80%로 설정 */
       max-width: 800px; /* 최대 너비를 800px로 설정 */
+      margin-top: 30px; /* 다이어그램과 Description 간격 설정 */
     }
   </style>
 </head>
 <body>
+  <!-- 제목 "AI Chatbot" -->
   <h1>AI Chatbot</h1>
+  
+  <!-- Description 텍스트 -->
   <p>Description</p>
 
   <!-- Mermaid 다이어그램 코드 -->
