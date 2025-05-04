@@ -3,16 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio 1</title>
-
+  <!-- Mermaid.js 라이브러리 불러오기 -->
   <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
     mermaid.initialize({ startOnLoad: true });
   </script>
+  <style>
+    /* 페이지 전체가 flexbox로 중앙 정렬되도록 설정 */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* 화면 높이를 100%로 설정 */
+      margin: 0; /* 기본 여백 제거 */
+      text-align: center; /* 텍스트 중앙 정렬 */
+    }
+
+    /* Mermaid 다이어그램 div 중앙 정렬 */
+    .mermaid {
+      width: 80%; /* 다이어그램의 너비를 80%로 설정 */
+      max-width: 800px; /* 최대 너비를 800px로 설정 */
+    }
+  </style>
 </head>
 <body>
   <h1>AI Chatbot</h1>
   <p>Description</p>
 
+  <!-- Mermaid 다이어그램 코드 -->
   <div class="mermaid">
     flowchart TD
       A[사용자의 질문] --> B{질문 분류}
