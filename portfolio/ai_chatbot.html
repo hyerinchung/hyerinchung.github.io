@@ -3,9 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio 1</title>
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
 </head>
 <body>
   <h1>AI Chatbot</h1>
   <p>Description</p>
+
+  <div class="mermaid">
+    flowchart TD
+      A[사용자의 질문] --> B{질문 분류}
+      B --> C[질문이 단답형인가?]
+      B --> D[질문이 긴 대화형인가?]
+      C --> E[단답형 답변 생성]
+      D --> F[대화형 답변 생성]
+      E --> G[답변 전달]
+      F --> G[답변 전달]
+      G --> H[사용자와의 대화 종료]
+  </div>
+
 </body>
 </html>
