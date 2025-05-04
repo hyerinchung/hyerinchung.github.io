@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hyerin Chung's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
   <style>
-    /* 간단한 카드 스타일 */
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
       padding: 20px;
       background-color: #f9f9f9;
     }
@@ -51,6 +52,12 @@
     .card h3 {
       margin-top: 0;
     }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -58,17 +65,17 @@
   <p>This is my AI & Neural Network Portfolio site 🎉</p>
 
   <div class="card-container">
-    <a class="card" href="portfolio1.html">
+    <a class="card" href="portfolio1.html" aria-label="Portfolio 1: AI Chatbot">
       <h3>Portfolio 1</h3>
       <p>AI Chatbot</p>
     </a>
-    <a class="card" href="portfolio2.html">
+    <a class="card" href="portfolio2.html" aria-label="Portfolio 2: Bank Churn Prediction">
       <h3>Portfolio 2</h3>
       <p>Bank Churn Prediction</p>
     </a>
-    <a class="card" href="portfolio3.html">
+    <a class="card" href="portfolio3.html" aria-label="Portfolio 3: Actuarial Science">
       <h3>Portfolio 3</h3>
-      <p>Actuarial Sicence</p>
+      <p>Actuarial Science</p>
     </a>
   </div>
 </body>
