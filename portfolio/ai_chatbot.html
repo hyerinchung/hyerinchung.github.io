@@ -9,50 +9,48 @@
     mermaid.initialize({ startOnLoad: true });
   </script>
   <style>
-    /* 페이지 전체가 flexbox로 중앙 정렬되도록 설정 */
     body {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column; /* 세로 방향으로 정렬 */
-      height: 100vh; /* 화면 높이를 100%로 설정 */
-      margin: 0; /* 기본 여백 제거 */
-      text-align: center; /* 텍스트 중앙 정렬 */
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
     }
 
-    /* AI Chatbot 제목 스타일 */
     h1 {
-      margin-left: 20px; /* 제목을 왼쪽으로 한 탭 정도 이동 */
-      text-align: left;  /* 제목을 왼쪽으로 정렬 */
+      text-align: center;
+      margin: 0 0 10px 0;
     }
 
-    /* Description 텍스트 스타일 */
     p {
-      margin-top: 20px; /* Description과 제목 간격 설정 */
+      max-width: 800px;
+      padding: 0 20px;
+      margin-top: 20px;
+      text-align: center;
     }
 
-    /* Mermaid 다이어그램 div 중앙 정렬 */
     .mermaid {
-      width: 80%; /* 다이어그램의 너비를 80%로 설정 */
-      max-width: 800px; /* 최대 너비를 800px로 설정 */
-      margin-top: 30px; /* 다이어그램과 Description 간격 설정 */
+      width: 80%;
+      max-width: 800px;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
-  <!-- 제목 "AI Chatbot" -->
   <h1>AI Chatbot</h1>
   
-  <!-- Description 텍스트 -->
-  <p>In today’s digital world, AI chatbots are becoming more common in our daily lives. But what exactly are they?
+  <p>
+    In today’s digital world, AI chatbots are becoming more common in our daily lives. But what exactly are they?<br><br>
 
-An AI chatbot is a computer program that uses artificial intelligence (AI) to simulate human conversation. These chatbots can understand natural language, respond to questions, and even carry on meaningful conversations. You might have seen them on websites, in apps, or as virtual assistants like Siri or Alexa.
+    An AI chatbot is a computer program that uses artificial intelligence (AI) to simulate human conversation. These chatbots can understand natural language, respond to questions, and even carry on meaningful conversations. You might have seen them on websites, in apps, or as virtual assistants like Siri or Alexa.<br><br>
 
-Businesses use AI chatbots to provide customer support, answer frequently asked questions, or even help with shopping. They’re available 24/7 and can handle multiple conversations at once, making them very efficient.
+    Businesses use AI chatbots to provide customer support, answer frequently asked questions, or even help with shopping. They’re available 24/7 and can handle multiple conversations at once, making them very efficient.<br><br>
 
-As technology continues to improve, AI chatbots are becoming smarter and more useful. Whether you're getting help with an online order or just chatting for fun, chances are you've already talked to one!</p>
+    As technology continues to improve, AI chatbots are becoming smarter and more useful. Whether you're getting help with an online order or just chatting for fun, chances are you've already talked to one!
+  </p>
 
-  <!-- Mermaid 다이어그램 코드 -->
   <div class="mermaid">
     flowchart TD
       A[사용자의 질문] --> B{질문 분류}
@@ -64,6 +62,5 @@ As technology continues to improve, AI chatbots are becoming smarter and more us
       F --> G[답변 전달]
       G --> H[사용자와의 대화 종료]
   </div>
-
 </body>
 </html>
