@@ -1,5 +1,5 @@
 <div style="background-color: #454752; color: white; padding: 10px 0; display: flex; justify-content: space-between; align-items: center; width: 100%; margin: 0; position: fixed; top: 0; left: 0; z-index: 10;">
-  <span style="margin-left: 20px; font-size: 18px;">Gotcha</span>
+  <span style="margin-left: 20px; font-size: 18px;">Gotcha!</span>
   <a href="../index.html" style="background-color: white; color: #454752; padding: 8px 16px; border-radius: 5px; text-decoration: none; margin-right: 20px;"> Main page</a>
 </div>
 
