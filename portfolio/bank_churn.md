@@ -78,4 +78,3 @@ The models were evaluated using metrics like:
 
 The final model achieved over 83% accuracy and highlighted key churn factors such as age, account activity, and credit card usage.
 
-[🔙 Back to Home](../index.html)
