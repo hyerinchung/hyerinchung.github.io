@@ -88,6 +88,7 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 
 # Train the model and store the history
 history = model.fit(X_train, y_train, epochs=50, batch_size=4, validation_split=0.1)
+```
 
 ## 🧠 Model Performance
 
