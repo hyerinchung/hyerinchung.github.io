@@ -11,24 +11,25 @@
   <style>
     body {
       display: flex;
-      justify-content: center;
-      align-items: center;
       flex-direction: column;
-      height: 100vh;
+      align-items: center;
       margin: 0;
+      padding: 40px 20px; /* 상단 여백 추가 */
       text-align: center;
+      box-sizing: border-box;
     }
 
     h1 {
-      text-align: center;
-      margin: 0 0 10px 0;
+      margin: 0 0 20px 0;
+      font-size: 2em;
     }
 
     p {
       max-width: 800px;
-      padding: 0 20px;
-      margin-top: 20px;
+      margin-top: 0;
+      margin-bottom: 30px;
       text-align: center;
+      line-height: 1.6;
     }
 
     .mermaid {
@@ -44,23 +45,4 @@
   <p>
     In today’s digital world, AI chatbots are becoming more common in our daily lives. But what exactly are they?<br><br>
 
-    An AI chatbot is a computer program that uses artificial intelligence (AI) to simulate human conversation. These chatbots can understand natural language, respond to questions, and even carry on meaningful conversations. You might have seen them on websites, in apps, or as virtual assistants like Siri or Alexa.<br><br>
-
-    Businesses use AI chatbots to provide customer support, answer frequently asked questions, or even help with shopping. They’re available 24/7 and can handle multiple conversations at once, making them very efficient.<br><br>
-
-    As technology continues to improve, AI chatbots are becoming smarter and more useful. Whether you're getting help with an online order or just chatting for fun, chances are you've already talked to one!
-  </p>
-
-  <div class="mermaid">
-    flowchart TD
-      A[사용자의 질문] --> B{질문 분류}
-      B --> C[질문이 단답형인가?]
-      B --> D[질문이 긴 대화형인가?]
-      C --> E[단답형 답변 생성]
-      D --> F[대화형 답변 생성]
-      E --> G[답변 전달]
-      F --> G[답변 전달]
-      G --> H[사용자와의 대화 종료]
-  </div>
-</body>
-</html>
+    An
