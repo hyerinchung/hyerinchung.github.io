@@ -10,35 +10,38 @@
   </script>
   <style>
     body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0;
-      padding: 40px 20px; /* 상단 여백 추가 */
-      text-align: center;
-      box-sizing: border-box;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
 
-    h1 {
-      margin: 0 0 20px 0;
-      font-size: 2em;
-    }
-    h2 {
-      margin-left: -30px; /* 왼쪽으로 조금 이동 */
-    }
-    p {
-      max-width: 800px;
-      margin-top: 0;
-      margin-bottom: 30px;
-      text-align: center;
-      line-height: 1.6;
-    }
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 2em;
+  text-align: center;
+}
 
-    .mermaid {
-      width: 80%;
-      max-width: 800px;
-      margin-top: 30px;
-    }
+h2, p {
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+  margin: 0 auto 20px auto; /* 가운데 정렬되지만 텍스트는 왼쪽으로 */
+}
+
+p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.mermaid {
+  width: 80%;
+  max-width: 800px;
+  margin-top: 30px;
+  text-align: center;
+}
   </style>
 </head>
 <body>
