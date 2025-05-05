@@ -2,9 +2,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 </head>
 
-<div style="background-color: #454752; color: white; padding: 10px 0; display: flex; justify-content: space-between; align-items: center; width: 100%; margin: 0; position: fixed; top: 0; left: 0; z-index: 10; font-family: 'Roboto', sans-serif;">
-  <span style="margin-left: 22px; font-size: 20px; font-family: 'Chewy', cursive;">Gotcha!</span>
-  <a href="../index.html" style="background-color: white; color: #454752; padding: 8px 16px; border-radius: 5px; text-decoration: none; margin-right: 20px;"> Main page</a>
+<div style="background-color: #454752; color: white; padding: 10px 0; display: flex; justify-content: space-between; align-items: center; width: 100%; margin: 0; position: fixed; top: 0; left: 0; z-index: 10;">
+  <span style="margin-left: 20px; font-size: 24px; font-family: 'Chewy', cursive;">Gotcha!</span>
+  <a href="../index.html" style="background-color: white; color: #454752; padding: 6px 12px; border-radius: 5px; text-decoration: none; margin-right: 20px; font-size: 14px;">Main page</a>
 </div>
 
 # AI Chatbot
