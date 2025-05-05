@@ -54,14 +54,15 @@
 
   <div class="mermaid">
     flowchart TD
-      A[사용자의 질문] --> B{질문 분류}
-      B --> C[질문이 단답형인가?]
-      B --> D[질문이 긴 대화형인가?]
-      C --> E[단답형 답변 생성]
-      D --> F[대화형 답변 생성]
-      E --> G[답변 전달]
-      F --> G[답변 전달]
-      G --> H[사용자와의 대화 종료]
+      A[User Question] --> B{Question Refinement}
+      B --> C[Are Relevant contents available?]
+      C --> D[Yes]
+      C --> E[No]
+      D --> F[RAG Response]
+      E --> G[GPT Response]
+      F --> H[Provide Answer]
+      G --> H[Provide Answer]
+      H --> I[End Conversation]
   </div>
 </body>
 </html>
