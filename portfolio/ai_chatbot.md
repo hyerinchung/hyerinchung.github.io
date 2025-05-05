@@ -1,4 +1,6 @@
-<div style="border-top: none;"></div>
+---
+layout: default
+---
 
 # AI Chatbot
 
