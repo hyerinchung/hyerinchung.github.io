@@ -1,31 +1,6 @@
----
-layout: default
-title: Bank Churn Prediction
----
-<style>
-  h1 {
-    border: none;  /* h1 태그에 적용된 border 제거 */
-    margin: 0;     /* margin 제거 */
-    padding: 0;    /* padding 제거 */
-  }
-
-  hr {
-    display: none;  /* 수평선 제거 */
-  }
-
-  /* 추가로 전체적인 스타일 조정 */
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  .content {
-    margin-top: 20px; /* 내용 위쪽 여백을 조정 */
-  }
-</style>
-
 # Bank Churn Prediction Project
 
+![Bank](https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/bank_head.jpg?raw=true)
 Welcome to my Bank Churn Prediction project! This project focuses on identifying customers who are likely to leave a bank using machine learning techniques.
 
 ## Overview
