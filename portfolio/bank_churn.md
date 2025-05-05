@@ -34,15 +34,14 @@ In this project, I used a customer dataset and applied classification models to 
 
 - Neural Network
 - Random Forest
-- XGBoost
 
 ## 📊 Features Used
 
 Key features in the dataset:
 
-- Credit Score
 - Age
-- Tenure
+- Country
+- Gender
 - Balance
 - Number of Products
 - Has Credit Card
