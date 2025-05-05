@@ -8,17 +8,9 @@ In today’s digital world, AI chatbots are becoming essential tools for busines
 
 ## How does the chatbot generate an answer?
 
-```mermaid
-flowchart TD
-  A[User Question] --> B{Question Refinement}
-  B --> C[Are Relevant contents available?]
-  C --> D[Yes]
-  C --> E[No]
-  D --> F[RAG Response]
-  E --> G[GPT Response]
-  F --> H[Generate Answer]
-  G --> H[Generate Answer]
-  H --> I[End Conversation]
-```
+<div align="center">
+  <img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/chatbot_diagram.png?raw=true" alt="AI Chatbot Logic">
+</div>
+
 
 [🔙 Back to Home](../index.html)
