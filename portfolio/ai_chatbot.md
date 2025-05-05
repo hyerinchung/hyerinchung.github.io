@@ -4,9 +4,10 @@
 
 <div style="background-color: #454752; color: white; padding: 10px 0; display: flex; justify-content: space-between; align-items: center; width: 100%; margin: 0; position: fixed; top: 0; left: 0; z-index: 10;">
   <span style="margin-left: 20px; font-size: 24px; font-family: 'Chewy', cursive;">Gotcha!</span>
-  <a href="../index.html" style="background-color: white; color: #454752; padding: 6px 12px; border-radius: 5px; text-decoration: none; margin-right: 20px; font-size: 14px;">Main page</a>
+  <a href="../index.html" style="margin-right: 20px;">
+    <img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/icons/icons8-home-50.png?raw=true" alt="Home" style="width: 20px; height: 20px;">
+  </a>
 </div>
-
 # AI Chatbot
 
 ![AI Chatbot illustration](https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/chatbot_head.jpg?raw=true)
