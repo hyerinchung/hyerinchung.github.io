@@ -1,27 +1,43 @@
-# Bank Churn Prediction Model
+---
+layout: default
+title: Bank Churn Prediction
+---
 
-This page provides a brief overview of a machine learning project designed to predict bank customer churn.
+# 🏦 Bank Churn Prediction Project
+
+Welcome to my Bank Churn Prediction project! This project focuses on identifying customers who are likely to leave a bank using machine learning techniques.
 
 ## 📌 Overview
 
-Using customer data from a bank, we built a predictive model to estimate the likelihood of a customer leaving the service.
+In this project, I used a customer dataset and applied classification models to predict churn, including:
 
-## 🔧 Technologies Used
+- Logistic Regression
+- Random Forest
+- XGBoost
 
-- Python
-- Pandas, NumPy
+## 📊 Features Used
 
-## 📊 Key Features
+Key features in the dataset:
 
-- Data preprocessing
-- Model training and evaluation
-- Churn probability visualization
+- Credit Score
+- Age
+- Tenure
+- Balance
+- Number of Products
+- Has Credit Card
+- Is Active Member
+- Estimated Salary
 
-## 📈 Summary of Results
+## 🧠 Model Performance
 
-- Model Accuracy: **83%**
-- Key factors influencing churn: Account balance, customer tenure, credit score, etc.
+The models were evaluated using metrics like:
 
----
+- Accuracy
+- Precision & Recall
+- ROC AUC Score
 
-_More details will be added soon._
+## 📎 Conclusion
+
+The final model achieved over 85% accuracy and highlighted key churn factors such as age, account activity, and credit card usage.
+
+[🔙 Back to Home](../index.html)
