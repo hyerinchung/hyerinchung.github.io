@@ -8,5 +8,5 @@ In today’s digital world, AI chatbots are becoming essential tools for busines
 
 ## How does the chatbot generate an answer?
 
-<img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/chatbot_diagram.png?raw=true" height="600" width="auto" alt="AI Chatbot illustration">
+<img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/chatbot_diagram.png?raw=true" height="700" width="auto" alt="AI Chatbot illustration">
 
