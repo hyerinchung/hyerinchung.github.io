@@ -49,8 +49,6 @@ Key features in the dataset:
 - Is Active Member
 - Estimated Salary
 
----
-
 ## 🧪 Basic NN
 
 ```python
