@@ -23,7 +23,7 @@ It includes the following features:
 - Is Active Member
 - Estimated Salary
 
-##Methodology
+## Methodology
 
 ## Basic NN
 
@@ -72,7 +72,7 @@ The models were evaluated using metrics like:
 - ROC AUC Score
 
 
-##Discussion
+## Discussion
 
 ## Conclusion
 
