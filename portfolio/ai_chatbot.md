@@ -1,3 +1,8 @@
+<div style="background-color: #007bff; color: white; padding: 10px 0; display: flex; justify-content: space-between; align-items: center;">
+  <span style="margin-left: 20px; font-size: 18px;">My Website</span>
+  <a href="../index.html" style="background-color: white; color: #007bff; padding: 8px 16px; border-radius: 5px; text-decoration: none; margin-right: 20px;">🔙 Back to Home</a>
+</div>
+
 # AI Chatbot
 
 ![AI Chatbot illustration](https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/chatbot_head.jpg?raw=true)
