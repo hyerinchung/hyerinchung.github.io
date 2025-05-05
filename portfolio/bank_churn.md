@@ -32,7 +32,7 @@ Welcome to my Bank Churn Prediction project! This project focuses on identifying
 
 In this project, I used a customer dataset and applied classification models to predict churn, including:
 
-- Logistic Regression
+- Neural Network
 - Random Forest
 - XGBoost
 
