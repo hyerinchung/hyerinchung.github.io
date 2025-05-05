@@ -1,18 +1,18 @@
 # Bank Churn Prediction Project
 
 ![Bank](https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/bank_head.jpg?raw=true)
-Welcome to my Bank Churn Prediction project! This project focuses on identifying customers who are likely to leave a bank using machine learning techniques.
 
-## Overview
+
+## Introduction
 
 In this project, I used a customer dataset and applied classification models to predict churn, including:
 
 - Neural Network
 - Random Forest
 
-## Features Used
-
-Key features in the dataset:
+## Dataset and Features
+This project uses a dataset of 10,000 bank customers, with their features. The data was sourced from Kaggle.
+It includes the following features:
 
 - Age
 - Country
@@ -22,6 +22,8 @@ Key features in the dataset:
 - Has Credit Card
 - Is Active Member
 - Estimated Salary
+
+##Methodology
 
 ## Basic NN
 
@@ -62,13 +64,15 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 history = model.fit(X_train, y_train, epochs=50, batch_size=4, validation_split=0.1)
 ```
 
-## Model Performance
-
+## Results
 The models were evaluated using metrics like:
 
 - Accuracy
 - Precision & Recall
 - ROC AUC Score
+
+
+##Discussion
 
 ## Conclusion
 
