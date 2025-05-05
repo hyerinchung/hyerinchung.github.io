@@ -10,8 +10,6 @@ Using customer data from a bank, we built a predictive model to estimate the lik
 
 - Python
 - Pandas, NumPy
-- Scikit-learn
-- XGBoost
 
 ## 📊 Key Features
 
@@ -21,7 +19,7 @@ Using customer data from a bank, we built a predictive model to estimate the lik
 
 ## 📈 Summary of Results
 
-- Model Accuracy: **85%**
+- Model Accuracy: **83%**
 - Key factors influencing churn: Account balance, customer tenure, credit score, etc.
 
 ---
