@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # AI Chatbot
 
 ![AI Chatbot illustration](https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/chatbot_head.jpg?raw=true)
