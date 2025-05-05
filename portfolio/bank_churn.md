@@ -24,18 +24,18 @@ title: Bank Churn Prediction
   }
 </style>
 
-# 🏦 Bank Churn Prediction Project
+# Bank Churn Prediction Project
 
 Welcome to my Bank Churn Prediction project! This project focuses on identifying customers who are likely to leave a bank using machine learning techniques.
 
-## 📌 Overview
+## Overview
 
 In this project, I used a customer dataset and applied classification models to predict churn, including:
 
 - Neural Network
 - Random Forest
 
-## 📊 Features Used
+## Features Used
 
 Key features in the dataset:
 
@@ -48,7 +48,7 @@ Key features in the dataset:
 - Is Active Member
 - Estimated Salary
 
-## 🧪 Basic NN
+## Basic NN
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -87,7 +87,7 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 history = model.fit(X_train, y_train, epochs=50, batch_size=4, validation_split=0.1)
 ```
 
-## 🧠 Model Performance
+## Model Performance
 
 The models were evaluated using metrics like:
 
@@ -95,7 +95,7 @@ The models were evaluated using metrics like:
 - Precision & Recall
 - ROC AUC Score
 
-## 📎 Conclusion
+## Conclusion
 
 The final model achieved over 83% accuracy and highlighted key churn factors such as age, account activity, and credit card usage.
 
