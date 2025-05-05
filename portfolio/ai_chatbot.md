@@ -5,7 +5,7 @@
 <div style="background-color: #454752; color: white; padding: 10px 0; display: flex; justify-content: space-between; align-items: center; width: 100%; margin: 0; position: fixed; top: 0; left: 0; z-index: 10;">
   <span style="margin-left: 20px; font-size: 24px; font-family: 'Chewy', cursive;">Gotcha!</span>
   <a href="../index.html" style="margin-right: 20px;">
-    <img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/icons/icons8-home-50.png?raw=true" alt="Home" style="width: 20px; height: 20px;">
+    <img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/icons/home-7-48.png?raw=true" alt="Home" style="width: 20px; height: 20px;">
   </a>
 </div>
 # AI Chatbot
