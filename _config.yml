@@ -1,1 +1,9 @@
 title: ""  # 사이트 제목을 빈 값으로 설정
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+mermaid:
+  version: 10.0.0
