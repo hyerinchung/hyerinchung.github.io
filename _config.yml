@@ -1,4 +1,7 @@
+---
+
 title: ""  # 사이트 제목을 빈 값으로 설정
+
 markdown: kramdown
 kramdown:
   input: GFM
