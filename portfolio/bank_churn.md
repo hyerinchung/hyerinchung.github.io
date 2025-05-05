@@ -2,6 +2,11 @@
 layout: default
 title: Bank Churn Prediction
 ---
+<style>
+  h1 {
+    border-bottom: none;
+  }
+</style>
 
 # 🏦 Bank Churn Prediction Project
 
