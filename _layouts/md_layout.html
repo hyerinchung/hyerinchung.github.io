@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet" />
   <style>
-    body {
+   body {
       font-family: 'Inter', sans-serif;
       line-height: 1.6;
       max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
+      margin: 0 auto;
+      padding: 100px 20px 40px; /* 헤더 높이만큼 padding-top 줌 */
       background: #fefefe;
       color: #333;
     }
@@ -38,9 +40,51 @@
       color: #333;
       text-decoration: none;
     }
+    .fixed-header {
+      background-color: #454752;
+      color: white;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+
+    .fixed-header a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .fixed-header a:first-child {
+      margin-left: 20px;
+      font-size: 28px;
+      font-family: 'Chewy', cursive;
+    }
+
+    .fixed-header img {
+      width: 28px;
+      height: 28px;
+      vertical-align: middle;
+      background-color: transparent;
+      margin-right: 20px;
+    }
   </style>
 </head>
 <body>
+
+    <!-- 헤더 -->
+  <div class="fixed-header">
+    <a href="../index.html">Gotcha!</a>
+    <a href="../index.html">
+      <img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/icons/home-7-48.png?raw=true" alt="Home">
+    </a>
+  </div>
+  
   {{ content }}
 
   {% include footer.html %}
