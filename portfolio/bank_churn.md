@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: md_layout
 title: Bank Churn
 ---
 
