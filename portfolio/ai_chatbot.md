@@ -1,3 +1,8 @@
+---
+layout: default
+title: AI Chatbot
+---
+
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 </head>
