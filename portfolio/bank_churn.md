@@ -39,7 +39,7 @@ In this project, I used a customer dataset and applied classification models to 
 
 ## Basic NN
 
-```python
+<pre><code>
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
@@ -74,7 +74,7 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 
 # Train the model and store the history
 history = model.fit(X_train, y_train, epochs=50, batch_size=4, validation_split=0.1)
-```
+</code></pre>
 
 ## Results
 The models were evaluated using metrics like:
