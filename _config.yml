@@ -1,7 +1,12 @@
 title: ""  # 사이트 제목을 빈 값으로 설정
 description: "My AI & Neural Network Projects"
 
-# Jekyll includes 기능이 잘 작동하도록 명시적으로 설정 (보통 없어도 되지만 안전하게)
 markdown: kramdown
+highlighter: rouge  # 코드 하이라이팅을 rouge로 설정 (GitHub Pages에서 권장)
+
+kramdown:
+  input: GFM         # GitHub Flavored Markdown
+  syntax_highlighter: rouge
+
 include:
   - _includes
