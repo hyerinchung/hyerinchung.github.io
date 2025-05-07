@@ -10,10 +10,12 @@ title: Bank Churn
 
 ## Introduction
 
-In this project, I used a customer dataset and applied classification models to predict churn, including:
+Customer churn refers to losing customers or clients over a given period, which is typically expressed as a percentage.
+Since acquiring new customers is typically more expensive than retaining existing ones, predicting customer churn is crucial for many companies.
+A high churn rate indicates that a company is losing a significant number of subscribers, which can slow growth and negatively affect sales and profitability.
+Then, how does the prediction work?
+I will begin by performing Exploratory Data Analysis on the dataset and applying various machine learning classification algorithms to identify the most effective model for predicting bank customer churn.
 
-- Neural Network
-- Random Forest
 
 ## Dataset and Features
 This project uses a dataset of 10,000 bank customers, with their features. The data was sourced from Kaggle.
@@ -29,6 +31,11 @@ It includes the following features:
 - Estimated Salary
 
 ## Methodology
+
+In this project, I used a customer dataset and applied classification models to predict churn, including:
+
+- Neural Network
+- Random Forest
 
 ## Basic NN
 
