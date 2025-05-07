@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
- 
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
@@ -8,12 +7,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet" />
   <style>
-   body {
+    body {
       font-family: 'Inter', sans-serif;
       line-height: 1.6;
       max-width: 800px;
       margin: 0 auto;
-      padding: 60px 20px 40px; /* 헤더 높이만큼 padding-top 줌 */
+      padding: 60px 20px 40px;
       background: #fefefe;
       color: #333;
     }
@@ -40,6 +39,7 @@
       color: #333;
       text-decoration: none;
     }
+
     .fixed-header {
       background-color: #454752;
       color: white;
@@ -73,18 +73,43 @@
       background-color: transparent;
       margin-right: 20px;
     }
+
+    /* 🟨 코드 블록을 위한 스타일 */
+    pre {
+      background: #f4f4f4;
+      padding: 1em;
+      overflow-x: auto;
+      border-radius: 6px;
+      margin-top: 1em;
+    }
+
+    code {
+      font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+      color: #c7254e;
+      background-color: #f9f2f4;
+      font-size: 0.95em;
+    }
+
+    /* 인라인 코드용 */
+    p code {
+      padding: 0.2em 0.4em;
+      background-color: #f4f4f4;
+      border-radius: 4px;
+    }
   </style>
 </head>
+
 <body>
 
-    <!-- 헤더 -->
+  <!-- 헤더 -->
   <div class="fixed-header">
     <a href="../index.html">Gotcha!</a>
     <a href="../index.html">
       <img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/icons/home-7-48.png?raw=true" alt="Home">
     </a>
   </div>
-  
+
+  <!-- 마크다운 본문 -->
   {{ content }}
 
   {% include footer.html %}
