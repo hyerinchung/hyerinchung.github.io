@@ -36,19 +36,29 @@ In this project, I used a customer dataset and applied machine learning models t
 
 - XGBoost
 - Random Forest
-- 
 
-## Machine Learning Model
+## Data Processing
 
 ```python
-from sklearn.model_selection import train_test_split, cross_val_score, cross_val_predict
-from sklearn.metrics import accuracy_score
+# Load data
+df = pd.read_csv("/content/Churn_Modelling.csv")
+print(df.head())
 
-X = data_churn_1.drop('Exited', axis=1)
-y = data_churn_1['Exited']
+# Generate credit_index
+df['credit_index'] = (df['CreditScore'] // 100) * 100
 
-# Split the data
-X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2,random_state=1015)
+# Drop unnecessary columns
+df = df.drop(columns=["RowNumber", "CustomerId", "Surname"])
+
+# Drop NA
+df = df.dropna()
+
+# Encoding categorical variable
+
+le_gender = LabelEncoder()
+le_geo = LabelEncoder()
+df["Gender"] = le_gender.fit_transform(df["Gender"])
+df["Geography"] = le_geo.fit_transform(df["Geography"])
 ```
 
 ## Results
