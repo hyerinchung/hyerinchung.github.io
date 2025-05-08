@@ -42,8 +42,8 @@ It includes the following features:
 
 In this project, I used a customer dataset and applied machine learning models to predict churn, including:
 
-- XGBoost
 - Random Forest
+- XGBoost
 
 The models were evaluated and compared using:
 
@@ -96,6 +96,12 @@ rf = RandomForestClassifier(n_estimators=100, random_state=1015)
 rf.fit(X_train, y_train)
 ```
 
+## Training a XGBoost Model
+
+## Tuning Random Forest Hyperparameters
+
+## Tuning XGBoost Hyperparameters
+
 ## Results
 
   
@@ -103,5 +109,4 @@ rf.fit(X_train, y_train)
 
 ## Conclusion
 
-The final model achieved over 83% accuracy and highlighted key churn factors such as age, account activity, and credit card usage.
 
