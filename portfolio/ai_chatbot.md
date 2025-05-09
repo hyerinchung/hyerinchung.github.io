@@ -64,7 +64,7 @@ for i in range(top_k):
 
 ```
 
-## Resut
+## Result
 
 ```python
 Query: What is machine learning?
