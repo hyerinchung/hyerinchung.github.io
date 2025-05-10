@@ -14,7 +14,7 @@ In today’s digital world, AI chatbots are becoming essential tools for busines
 ## How does the chatbot generate an answer?
 
 <div align="center">
-  <img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/chatbot_diagram.png?raw=true" alt="AI Chatbot Logic" style="max-width: 35%; height: auto;">
+  <img src="https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/chatbot_diagram.png?raw=true" alt="AI Chatbot Logic" style="max-width: 60%; height: auto;">
 </div>
 
 
