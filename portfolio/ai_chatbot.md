@@ -18,6 +18,20 @@ In today’s digital world, AI chatbots are becoming essential tools for busines
 </div>
 
 
+## What is Vector Embedding?
+
+Vector embedding is a way to represent information—like words, sentences, images, or even entire documents—as points (vectors) in a multi-dimensional space. Each item is converted into a list of numbers (the vector), which captures its meaning or features in a way that machines can understand and compare.
+
+Example:
+If you embed the words:
+
+"cat" → [0.2, 0.7, ...]
+
+"dog" → [0.3, 0.6, ...]
+
+"banana" → [0.9, 0.1, ...]
+
+
 ## Vector Embedding and Sentence Transformer
 
 ```python
