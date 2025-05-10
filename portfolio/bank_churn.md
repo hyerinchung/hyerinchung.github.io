@@ -42,6 +42,7 @@ It includes the following features:
 
 In this project, I used a customer dataset and applied machine learning models to predict churn, including:
 
+- Neural Network
 - Random Forest
 - XGBoost
 
