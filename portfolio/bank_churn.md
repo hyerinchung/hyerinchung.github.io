@@ -3,7 +3,7 @@ layout: md_layout
 title: Bank Churn
 ---
 
-# Bank Churn Prediction Project
+# Bank Churn Prediction Project using Machine Learning Algorithms
 
 ![Bank](https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/bank_head.jpg?raw=true)
 
