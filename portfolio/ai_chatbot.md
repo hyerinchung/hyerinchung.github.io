@@ -88,3 +88,6 @@ Top results:
 2: Python is a programming language. (Score: 0.5348)
 
 ```
+## Conclusion
+
+This AI chatbot project demonstrates the practical application of modern natural language processing techniques—especially vector embeddings and semantic search—to build an intuitive, helpful user experience. By leveraging tools like Sentence Transformers and FAISS, the chatbot can understand user queries in a meaningful way and retrieve the most relevant responses. As AI continues to evolve, such technologies will play an increasingly important role in building smarter, more responsive digital solutions.
