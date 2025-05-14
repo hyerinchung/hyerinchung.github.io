@@ -3,4 +3,4 @@ layout: md_layout
 title: Text Embedding
 ---
 
-# The Basics to Neural Networks
+# The Basics of Neural Networks
