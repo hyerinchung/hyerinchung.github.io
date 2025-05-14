@@ -13,10 +13,10 @@ At its core, a neural network is a computational model inspired by the way the h
 
 ## Applications of Neural Networks
 
-- **Image Classification**: Neural networks classify images into different categories (e.g., identifying whether an image contains a dog, cat, or car)..
+- **Image Classification**: Neural networks classify images into different categories (e.g., identifying whether an image contains a dog, cat, or car)
 - **Natural Language Processing (NLP)**: They are used for tasks like language translation, sentiment analysis, and chatbots.
 - **Recommendation Systems**: Neural networks help power personalized recommendations, such as those you see on Netflix, YouTube, or Amazon.
-- **Prediction and Forecasting**: Stock market prediction, demand forecasting, weather forecasting, etc.
+- **Prediction and Forecasting**: Neural networks are excellent for making predictions based on historical data. (e.g. Stock market prediction, demand forecasting, or weather forecasting)
 
 ## Conclusion
 
