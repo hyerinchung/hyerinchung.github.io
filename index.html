@@ -100,6 +100,17 @@
       font-weight: bold;
       text-align: center;
     }
+    @media (max-width: 900px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr); /* 태블릿: 2열 */
+    }
+  }
+  
+    @media (max-width: 600px) {
+      .card-container {
+        grid-template-columns: 1fr; /* 모바일: 1열 */
+      }
+    }
   </style>
 </head>
 <body>
