@@ -5,6 +5,8 @@ title: Text Embedding
 
 # Understanding the Basics of Neural Networks
 
+![Neural Network illustration](https://github.com/hyerinchung/hyerinchung.github.io/blob/main/images/basic_nn.jpg?raw=true)
+
 Neural networks are the backbone of many modern artificial intelligence (AI) applications, from image recognition to natural language processing. But what exactly are neural networks, and how do they work? In this post, we’ll break down the basics of neural networks and explore their key components in a simple and easy-to-understand way.
 
 ## What is Neural Networks?
