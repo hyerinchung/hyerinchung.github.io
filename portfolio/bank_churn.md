@@ -95,13 +95,113 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 rf = RandomForestClassifier(n_estimators=100, random_state=1015)
 rf.fit(X_train, y_train)
+
+# Prediction and Evaluation
+
+y_pred = rf.predict(X_test)
+y_proba = rf.predict_proba(X_test)[:, 1]
+
 ```
 
 ## Training a XGBoost Model
 
+```python
+# XGBoost model
+
+xgb_model = xgb.XGBClassifier(
+    n_estimators=100,
+    max_depth=4,
+    learning_rate=0.1,
+    subsample=0.8,
+    colsample_bytree=0.8,
+    random_state=1015,
+    use_label_encoder=False,
+    eval_metric='logloss'
+)
+
+xgb_model.fit(X_train, y_train)
+
+# Prediction
+
+y_pred_xgb = xgb_model.predict(X_test)
+
+```
+
 ## Tuning Random Forest Hyperparameters
+```python
+# Basic Random Forest
+rf_model = RandomForestClassifier(random_state=42)
+
+# Hyperparameters
+param_dist = {
+    'n_estimators': [100, 200, 300],
+    'max_depth': [None, 5, 10, 15],
+    'min_samples_split': [2, 5, 10],
+    'min_samples_leaf': [1, 2, 4],
+    'max_features': ['sqrt', 'log2', None],
+    'bootstrap': [True, False]
+}
+
+# Randomized Search
+random_search_rf = RandomizedSearchCV(
+    estimator=rf_model,
+    param_distributions=param_dist,
+    n_iter=30,
+    cv=3,
+    verbose=1,
+    n_jobs=-1,
+    random_state=1015,
+    scoring='roc_auc'
+)
+
+# Training
+random_search_rf.fit(X_train, y_train)
+
+# Prediction
+best_rf = random_search_rf.best_estimator_
+y_pred_rf = best_rf.predict(X_test)
+y_proba_rf = best_rf.predict_proba(X_test)[:, 1]
+```
 
 ## Tuning XGBoost Hyperparameters
+```python
+# Basic XGBoost
+xgb_model = xgb.XGBClassifier(
+    use_label_encoder=False,
+    eval_metric='logloss',
+    random_state=1015
+)
+
+# Parameters
+param_dist = {
+    'n_estimators': [100, 200, 300],
+    'max_depth': [3, 4, 5, 6],
+    'learning_rate': [0.01, 0.05, 0.1, 0.2],
+    'subsample': [0.6, 0.8, 1.0],
+    'colsample_bytree': [0.6, 0.8, 1.0],
+    'gamma': [0, 0.1, 0.2, 0.3]
+}
+
+# RandomizedSearchCV
+random_search = RandomizedSearchCV(
+    estimator=xgb_model,
+    param_distributions=param_dist,
+    n_iter=30,                # 30 combinations
+    scoring='roc_auc',        # AUC Evaluation
+    cv=3,                     # 3-fold cross validation
+    verbose=1,
+    n_jobs=-1,
+    random_state=1015
+)
+
+# Training
+random_search.fit(X_train, y_train)
+
+# Testing best model
+best_xgb = random_search.best_estimator_
+y_pred_best = best_xgb.predict(X_test)
+y_proba_best = best_xgb.predict_proba(X_test)[:, 1]
+```
 
 ## Results
 
