@@ -74,7 +74,7 @@ le_geo = LabelEncoder()
 df["Gender"] = le_gender.fit_transform(df["Gender"])
 df["Geography"] = le_geo.fit_transform(df["Geography"])
 ```
-## Creating a Train/test Dataset
+## Creating a Train and Test Dataset
 
 ```python
 # Split Feature and Target
