@@ -203,11 +203,4 @@ y_pred_best = best_xgb.predict(X_test)
 y_proba_best = best_xgb.predict_proba(X_test)[:, 1]
 ```
 
-## Results
-
-  
-## Discussion
-
-## Conclusion
-
 
