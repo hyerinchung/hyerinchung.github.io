@@ -9,7 +9,7 @@ title: AI Chatbot
 
 ## What is AI chatbot?
 
-In today’s digital world, AI chatbots are becoming essential tools for businesses, offering human-like conversations through natural language processing. From virtual assistants like Siri and Alexa to customer support bots, they enhance user experience and streamline service. In this portfolio, I introduce an AI-powered troubleshooting chatbot I developed—designed to help users quickly resolve common product issues with intelligent, step-by-step guidance.
+In today’s digital world, AI chatbots are becoming essential tools for businesses, offering human-like conversations through natural language processing. From virtual assistants like Siri and Alexa to customer support bots, they enhance user experience and streamline service. In this portfolio, I introduce an AI-powered troubleshooting chatbot I developed to help users quickly resolve common product issues with intelligent, step-by-step guidance.
 
 ## How does the chatbot generate an answer?
 
@@ -20,7 +20,7 @@ In today’s digital world, AI chatbots are becoming essential tools for busines
 
 ## What is Vector Embedding?
 
-Vector embedding is a way to represent information—like words, sentences, images, or even entire documents—as points (vectors) in a multi-dimensional space. Each item is converted into a list of numbers (the vector), which captures its meaning or features in a way that machines can understand and compare.
+Vector embedding is a way to represent information such as words, sentences, images, or even entire documents as points (vectors) in a multi-dimensional space. Each item is converted into a list of numbers (the vector), which captures its meaning or features in a way that machines can understand and compare.
 
 Example:
 If you embed the words:
@@ -90,4 +90,4 @@ Top results:
 ```
 ## Conclusion
 
-This AI chatbot project demonstrates the practical application of modern natural language processing techniques—especially vector embeddings and semantic search—to build an intuitive, helpful user experience. By leveraging tools like Sentence Transformers and FAISS, the chatbot can understand user queries in a meaningful way and retrieve the most relevant responses. As AI continues to evolve, such technologies will play an increasingly important role in building smarter, more responsive digital solutions.
+This AI chatbot project demonstrates the practical application of modern natural language processing techniques, especially vector embeddings and semantic search, to build an intuitive, helpful user experience. By leveraging tools like Sentence Transformers and FAISS, the chatbot can understand user queries in a meaningful way and retrieve the most relevant responses. As AI continues to evolve, such technologies will play an increasingly important role in building smarter, more responsive digital solutions.
